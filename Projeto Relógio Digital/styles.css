@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.digital-clock {
+    width: 320px;
+    height: 300px;
+    background-image: url('relogio.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000; 
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+}
