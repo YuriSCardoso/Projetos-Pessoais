@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Gallery with Lightbox</title>
+</head>
+<body>
+
+    <div class="gallery">
+        <img src="Pomni.jpg" alt="Image 1" onclick="openLightbox('Pomni.jpg')">
+        <img src="Jax.jpg" alt="Image 2" onclick="openLightbox('Jax.jpg')">
+        <img src="Ragatha.png" alt="Image 3" onclick="openLightbox('Ragatha.png')">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
